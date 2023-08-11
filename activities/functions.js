@@ -11,6 +11,7 @@ const factorial = (n) => {
 console.log(factorial(33))
 
 // ACTIVITY 2 
+console.log("\n")
 let orderCount = 1
 const takeOrder = (topping, side, orderCount) => {
     console.log(`Order Number ${orderCount}: Pizza topped with ${topping} and served with ${side}`)
@@ -20,8 +21,8 @@ const takeOrder = (topping, side, orderCount) => {
 takeOrder("pineapple", "fries", orderCount)
 
 // ACTIVITY 3
-
-const correctPin = '3256';
+console.log("\n")
+const correctPin = "3256";
 let balance = 6547;
 
 function withdraw(pin, amount) {
@@ -30,7 +31,7 @@ function withdraw(pin, amount) {
       balance -= amount;
       return `Withdrawal successful! Remaining balance: $${balance}`;
     } else {
-      return 'Invalid withdrawal amount.';
+      return "Invalid withdrawal amount.";
     }
   } else {
     return 'Incorrect PIN.';

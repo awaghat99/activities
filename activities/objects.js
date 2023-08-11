@@ -8,6 +8,7 @@ const person = {
     }
 }
 
+// ACTIVITY 2
 const pet = {
     petName: "Buddy",
     typeOfPet: "Dog",
@@ -23,6 +24,7 @@ const pet = {
     }
 }
 
+// ACTIVITY 3
 const coffeeShop = {
     branch: "Cafe A",
     drinksWithPrices: {
