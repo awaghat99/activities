@@ -44,13 +44,14 @@ for (let i = 0; i < 6; i++) {
 
 // ACTIVITY 3 
 console.log("\n")
+console.log("Counting down from 9")
 for (let i = 9; i > 0; i--) {
     console.log(i)
 }
 
 // ACTIVITY 4
 // using same array from earliar
-console.log("\n")
+console.log("\n\n")
 for (let movie of movies) {
     console.log(movie)
 }
@@ -87,4 +88,4 @@ for (let i = 0; i < bobsFollowers.length; i++) {
     }
 }
 
-console.log(matchingArray)
+console.log(`The common followers of Bob and Hannah are: ${matchingArray}`)

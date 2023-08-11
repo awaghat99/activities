@@ -9,7 +9,6 @@ if (age > 17) {
 }
 
 // ACTIVITY 1 STRETCH
-
 let country = "USA"
 
 if (age >= 21 && country == "USA" ) {
@@ -17,11 +16,11 @@ if (age >= 21 && country == "USA" ) {
 } else if (age >= 18 && country == "UK") {
     console.log("Yes, I can serve you")
 } else {
-    console.log("Sorry, you are not old enough")
+    console.log("Sorry, you are not old enough in your country")
 }
 
 // ACTIVITY 2
-
+console.log("\n")
 let pizzaTopping = "pineapple"
 
 switch (pizzaTopping) {
@@ -42,7 +41,7 @@ switch (pizzaTopping) {
 }   
 
 // ACTIVITY 3
-
+console.log("\n")
 let password = "34 hO4w ma7ny";
 const regex = /[A-Za-z]/g;
 const lettersArray = password.match(regex);
@@ -54,7 +53,7 @@ if (lettersArray.length < 8) {
 }
 
 // ACTIVITY 4
-
+console.log("\n")
 let num = 75;
 
 switch(true) {
@@ -72,7 +71,7 @@ switch(true) {
 }
 
 // ACTIVITY 5 
-
+console.log("\n")
 let palNum = 123454321;
 let convertedToString = palNum.toString();
 let reversed = convertedToString.split("").reverse().join("");
@@ -85,7 +84,7 @@ if (reversed == palNum) {
 }
 
 // ACTIVITY 6
-
+console.log("\n")
 let time = 800;
 let placeOfWork = "Code Nation";
 let townOfHome = "Blackburn";
@@ -103,7 +102,7 @@ if (time >= 700 && time < 800) {
 }
 
 // ACTIVITY 7
-
+console.log("\n")
 let randomString = "rtevbidith";
 let currentIndex = 0;
 const charChecker = ["a", "e", "i", "o", "u"]
@@ -117,7 +116,7 @@ for (let i = 0; i < randomString.length; i++) {
 console.log(`The index of the last appearing vowel is ${currentIndex}`)
 
 // ACTIVITY 8 
-
+console.log("\n")
 let word = "random";
 
 if (word[0] === word[word.length - 1]) {
@@ -127,7 +126,7 @@ if (word[0] === word[word.length - 1]) {
 }
 
 // ACTIVITY 9
-
+console.log("\n")
 let num1 = 87;
 let num2 = 54;
 let sumNum = num1 + num2;
