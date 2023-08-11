@@ -35,7 +35,7 @@ const birthday = new Date(1999, 11, 19);
 let timeElapsed = today - birthday;
 let days = timeElapsed / (1000 * 60 * 60 * 24);
 
-console.log(Math.floor(days));
+console.log(`I am ${Math.floor(days)} days old`);
 
 // ACTIVITY 4
 
